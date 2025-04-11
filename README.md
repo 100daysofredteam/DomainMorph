@@ -1,5 +1,5 @@
 # Domain Morph
-## Objective:
+## Objective
 This tool is designed to assist red teams in conducting domain variation attacks, commonly known as "typosquatting" or "domain name squatting," where they generate variations of a given domain name. These variations could include:
 
     Misspellings (e.g., xyz.com -> xzy.com).
@@ -20,7 +20,7 @@ The tool will also check if these domains are registered and log the result in a
 The tool is fully cross-platform, works on Windows, Linux, and macOS.
 
 
-## Explanation of the Code:
+## Explanation of the Code
 
 #### Homoglyphs Dictionary:
 This dictionary holds mappings of characters to their visually similar counterparts. For example, "a" can be replaced with "а" (Cyrillic 'a') or "4" to create domain variations.
