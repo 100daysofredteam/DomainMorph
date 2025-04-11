@@ -47,7 +47,7 @@ A sleep of 1 second is implemented between requests to avoid hammering the WHOIS
 
 Run the script with the following command to generate domain variations for xyz.com:
 
-python3 domainMorph.py xyz.com
+```python3 domainMorph.py xyz.com```
 
 This will generate domain variations like xzy.com, xyz.co, and others, then check if they are registered and save the results in domain_variations.csv.
 
