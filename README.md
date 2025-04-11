@@ -28,15 +28,11 @@ This dictionary holds mappings of characters to their visually similar counterpa
 #### Domain Variation Generation:
 The generate_variations function takes the base domain name and produces several types of variations:
 
-    Misspellings: By replacing each character in the domain with a random homoglyph.
-
-    Homoglyphs: For each character in the domain that has homoglyphs, generate a variation.
-
-    Shortened Forms: A short version of the domain, like using the first three characters.
-
-    Hyphen Variations: Create variants with hyphens between sections of the domain.
-
-    Alternative TLDs: Check for popular alternative TLDs like .co, .net, etc.
+    - Misspellings: By replacing each character in the domain with a random homoglyph.
+    - Homoglyphs: For each character in the domain that has homoglyphs, generate a variation.
+    - Shortened Forms: A short version of the domain, like using the first three characters.
+    - Hyphen Variations: Create variants with hyphens between sections of the domain.
+    - Alternative TLDs: Check for popular alternative TLDs like .co, .net, etc.
 
 #### Domain Registration Check:
 The check_domain_registration function sends a simple HTTP request to a WHOIS service and checks if the domain is registered.
