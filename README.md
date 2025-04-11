@@ -45,10 +45,14 @@ A sleep of 1 second is implemented between requests to avoid hammering the WHOIS
 
 ## Example Usage
 
+Install the required Python modules first:
+```  
+   python3 -m pip install -r requirements.txt
+```
+
 Run the script with the following command to generate domain variations for xyz.com:
 
 ```  
-   python3 -m pip install -r requirements.txt
    python3 domainMorph.py xyz.com
 ```
 
